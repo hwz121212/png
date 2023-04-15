@@ -3,7 +3,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <RemoteDebuggerCommand />
     <DebuggerFlavor>LinuxDebugger</DebuggerFlavor>
-    <RemoteDebuggerWorkingDirectory />
+    <RemoteDebuggerWorkingDirectory>.</RemoteDebuggerWorkingDirectory>
     <RemoteDebuggerCommandArguments>
     </RemoteDebuggerCommandArguments>
     <RemoteTarget>1343664412;192.168.0.102 (username=, port=22, authentication=Password)</RemoteTarget>
@@ -11,7 +11,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <RemoteDebuggerCommand />
     <DebuggerFlavor>LinuxDebugger</DebuggerFlavor>
-    <RemoteDebuggerWorkingDirectory />
+    <RemoteDebuggerWorkingDirectory>.</RemoteDebuggerWorkingDirectory>
     <RemoteDebuggerCommandArguments>
     </RemoteDebuggerCommandArguments>
     <RemoteTarget>1343664412;192.168.0.102 (username=, port=22, authentication=Password)</RemoteTarget>

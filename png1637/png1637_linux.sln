@@ -16,8 +16,14 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_dll", "1_dll", "{0E558F4B-D6E5-45C7-B075-F16B01BCE550}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpng", "thirdparty\png1637\libpng_linux.vcxproj", "{64115EAD-0022-4772-9495-D640DC7BECD2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{791642ED-9E59-4F42-927B-3562F869D9C1} = {791642ED-9E59-4F42-927B-3562F869D9C1}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "png", "thirdparty\png1637\png_linux.vcxproj", "{218D85B6-8E46-426C-A5D3-94E6BF5096C2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CE378188-FDBB-4EF5-A62D-20150CD4EEE3} = {CE378188-FDBB-4EF5-A62D-20150CD4EEE3}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pngfix", "test\pngfix\pngfix_linux.vcxproj", "{11DBE532-0E32-4D83-AC99-0646CAD3FB9D}"
 EndProject
