@@ -1814,8 +1814,8 @@ test_one_file(const char *inname, const char *outname)
 static const char *inname = "pngtest/png";
 static const char *outname = "pngout/png";
 #else
-static const char *inname = "pngtest.png";
-static const char *outname = "pngout.png";
+static const char *inname = "/root/bin/Debug/pngtest.png";
+static const char *outname = "/root/bin/Debug/pngout.png";
 #endif
 
 int
