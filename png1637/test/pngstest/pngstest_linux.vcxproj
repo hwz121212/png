@@ -11,10 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="png-fix-itxt.c" />
+    <ClCompile Include="pngstest.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pngstest-errors.h" />
+    <ClInclude Include="sRGB.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D64B64D7-3756-4C96-AC99-99DFF7C1414E}</ProjectGuid>
+    <ProjectGuid>{CBE823A3-4C51-4AB7-BF64-A88346B03249}</ProjectGuid>
     <Keyword>Linux</Keyword>
     <RootNamespace>zlib</RootNamespace>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
@@ -22,7 +26,7 @@
     <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
     <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
     <LinuxProjectType>{2238F9CD-F817-4ECC-BD14-2524D2669B35}</LinuxProjectType>
-    <ProjectName>png-fix-itxt</ProjectName>
+    <ProjectName>pngstest</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">

@@ -11,10 +11,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="png-fix-itxt.c" />
+    <ClCompile Include="pngvalid.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cexcept.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D64B64D7-3756-4C96-AC99-99DFF7C1414E}</ProjectGuid>
+    <ProjectGuid>{8FC8A664-E2D4-43E8-9D73-5A92F49313CC}</ProjectGuid>
     <Keyword>Linux</Keyword>
     <RootNamespace>zlib</RootNamespace>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
@@ -22,7 +25,7 @@
     <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
     <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
     <LinuxProjectType>{2238F9CD-F817-4ECC-BD14-2524D2669B35}</LinuxProjectType>
-    <ProjectName>png-fix-itxt</ProjectName>
+    <ProjectName>pngvalid</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -50,7 +53,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>include;../libzlib/include;../libpng/include;$(SolutionDir)thirdparty\zlib-1.2.12\include;$(SolutionDir)thirdparty\png1637\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;include;../libzlib/include;../libpng/include;$(SolutionDir)thirdparty\zlib-1.2.12\include;$(SolutionDir)thirdparty\png1637\include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>ZLIB_WINAPI;PNG_FREESTANDING_TESTS</PreprocessorDefinitions>
     </ClCompile>
     <Link>
@@ -61,7 +64,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>include;../libzlib/include;../libpng/include;$(SolutionDir)thirdparty\zlib-1.2.12\include;$(SolutionDir)thirdparty\png1637\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;include;../libzlib/include;../libpng/include;$(SolutionDir)thirdparty\zlib-1.2.12\include;$(SolutionDir)thirdparty\png1637\include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>ZLIB_WINAPI;PNG_FREESTANDING_TESTS</PreprocessorDefinitions>
     </ClCompile>
     <Link>
