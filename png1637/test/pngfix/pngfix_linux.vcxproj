@@ -54,9 +54,9 @@
       <PreprocessorDefinitions>ZLIB_WINAPI;PNG_FREESTANDING_TESTS</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <LibraryDependencies>
-      </LibraryDependencies>
-      <AdditionalDependencies>/root/bin/$(Configuration)/zlib.so;/root/bin/$(Configuration)/png.so</AdditionalDependencies>
+      <LibraryDependencies>zlib</LibraryDependencies>
+      <AdditionalDependencies>/root/lib/$(Configuration)/libpng.a</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/root/lib/$(Configuration)/</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -65,9 +65,9 @@
       <PreprocessorDefinitions>ZLIB_WINAPI;PNG_FREESTANDING_TESTS</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <LibraryDependencies>
-      </LibraryDependencies>
-      <AdditionalDependencies>/root/bin/$(Configuration)/zlib.so;/root/bin/$(Configuration)/png.so</AdditionalDependencies>
+      <LibraryDependencies>zlib</LibraryDependencies>
+      <AdditionalDependencies>/root/lib/$(Configuration)/libpng.a</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/root/lib/$(Configuration)/</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
