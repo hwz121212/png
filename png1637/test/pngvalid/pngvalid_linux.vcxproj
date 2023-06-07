@@ -53,7 +53,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.;include;../libzlib/include;../libpng/include;$(SolutionDir)thirdparty\zlib-1.2.12\include;$(SolutionDir)thirdparty\png1637\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;/root/projects/zlib/include;/root/projects/png/include;$(SolutionDir)thirdparty\zlib-1.2.12\include;$(SolutionDir)thirdparty\png1637\include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>ZLIB_WINAPI;PNG_FREESTANDING_TESTS</PreprocessorDefinitions>
     </ClCompile>
     <Link>
@@ -62,7 +62,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.;include;../libzlib/include;../libpng/include;$(SolutionDir)thirdparty\zlib-1.2.12\include;$(SolutionDir)thirdparty\png1637\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;/root/projects/zlib/include;/root/projects/png/include;$(SolutionDir)thirdparty\zlib-1.2.12\include;$(SolutionDir)thirdparty\png1637\include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>ZLIB_WINAPI;PNG_FREESTANDING_TESTS</PreprocessorDefinitions>
     </ClCompile>
     <Link>

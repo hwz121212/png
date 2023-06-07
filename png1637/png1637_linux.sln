@@ -26,46 +26,18 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "png", "thirdparty\png1637\p
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pngfix", "test\pngfix\pngfix_linux.vcxproj", "{11DBE532-0E32-4D83-AC99-0646CAD3FB9D}"
-	ProjectSection(ProjectDependencies) = postProject
-		{64115EAD-0022-4772-9495-D640DC7BECD2} = {64115EAD-0022-4772-9495-D640DC7BECD2}
-		{791642ED-9E59-4F42-927B-3562F869D9C1} = {791642ED-9E59-4F42-927B-3562F869D9C1}
-	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "png-fix-itxt", "test\png-fix-itxt\png-fix-itxt_linux.vcxproj", "{D64B64D7-3756-4C96-AC99-99DFF7C1414E}"
-	ProjectSection(ProjectDependencies) = postProject
-		{64115EAD-0022-4772-9495-D640DC7BECD2} = {64115EAD-0022-4772-9495-D640DC7BECD2}
-		{791642ED-9E59-4F42-927B-3562F869D9C1} = {791642ED-9E59-4F42-927B-3562F869D9C1}
-	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pngimage", "test\pngimage\pngimage_linux.vcxproj", "{91261829-5E3B-49F7-ADD2-3C8593426CFB}"
-	ProjectSection(ProjectDependencies) = postProject
-		{64115EAD-0022-4772-9495-D640DC7BECD2} = {64115EAD-0022-4772-9495-D640DC7BECD2}
-		{791642ED-9E59-4F42-927B-3562F869D9C1} = {791642ED-9E59-4F42-927B-3562F869D9C1}
-	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pngstest", "test\pngstest\pngstest_linux.vcxproj", "{CBE823A3-4C51-4AB7-BF64-A88346B03249}"
-	ProjectSection(ProjectDependencies) = postProject
-		{64115EAD-0022-4772-9495-D640DC7BECD2} = {64115EAD-0022-4772-9495-D640DC7BECD2}
-		{791642ED-9E59-4F42-927B-3562F869D9C1} = {791642ED-9E59-4F42-927B-3562F869D9C1}
-	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pngunknown", "test\pngunknown\pngunknown_linux.vcxproj", "{4F04C856-930E-4A18-B6CF-ECF08D8D257D}"
-	ProjectSection(ProjectDependencies) = postProject
-		{CE378188-FDBB-4EF5-A62D-20150CD4EEE3} = {CE378188-FDBB-4EF5-A62D-20150CD4EEE3}
-		{218D85B6-8E46-426C-A5D3-94E6BF5096C2} = {218D85B6-8E46-426C-A5D3-94E6BF5096C2}
-	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pngvalid", "test\pngvalid\pngvalid_linux.vcxproj", "{8FC8A664-E2D4-43E8-9D73-5A92F49313CC}"
-	ProjectSection(ProjectDependencies) = postProject
-		{CE378188-FDBB-4EF5-A62D-20150CD4EEE3} = {CE378188-FDBB-4EF5-A62D-20150CD4EEE3}
-		{218D85B6-8E46-426C-A5D3-94E6BF5096C2} = {218D85B6-8E46-426C-A5D3-94E6BF5096C2}
-	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pngtest", "test\pngtest\pngtest_linux.vcxproj", "{BCC73EC6-2124-41C8-A168-D530CDA3857F}"
-	ProjectSection(ProjectDependencies) = postProject
-		{64115EAD-0022-4772-9495-D640DC7BECD2} = {64115EAD-0022-4772-9495-D640DC7BECD2}
-		{791642ED-9E59-4F42-927B-3562F869D9C1} = {791642ED-9E59-4F42-927B-3562F869D9C1}
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
