@@ -73,12 +73,12 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>include;../libzlib/include;$(SolutionDir)thirdparty\zlib-1.2.12\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;/root/projects/libzlib/include;/root/projects/libpng/include;$(SolutionDir)thirdparty\zlib-1.2.12\include</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>include;../libzlib/include;$(SolutionDir)thirdparty\zlib-1.2.12\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;/root/projects/libzlib/include;/root/projects/libpng/include;$(SolutionDir)thirdparty\zlib-1.2.12\include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions />
     </ClCompile>
   </ItemDefinitionGroup>
